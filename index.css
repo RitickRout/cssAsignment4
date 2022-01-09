@@ -1,0 +1,138 @@
+
+.heading{
+    background-image: linear-gradient(270deg, yellow,green,red);
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.list{
+    display: inline-block;
+    border: 2px solid red;
+    margin-top: 8px;
+    border-radius: 8px;
+    width: 46%;
+    position: relative;
+    left: 403px;
+    background-color: aqua;
+}
+.content1{
+    display: inline-block;
+    margin: 0px;
+    padding-left: 290px;
+    text-align: center;
+}
+.flex-box{
+    margin-top: 10px;
+    width: 1520px;
+    height: 150px;
+    border: .5px solid red;
+ display: inline-flex;
+ flex-wrap:wrap;
+ justify-content:center;
+ border-radius: 20px;
+ background-color: rgb(79, 245, 167);
+}
+
+.flex-item {
+    background-color: rgb(43, 207, 236);
+    font-weight: bold;
+    border: 2px solid green;
+    height: 71px;
+    width: 478px;
+    border-radius: 10px;
+    margin: 0px 12px;
+}
+
+.heading1{
+    border: 2px solid red;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    background-image: linear-gradient(90deg,red,yellow, red) ;
+    margin: 10px 0px;
+}
+.top-performer-box{
+    display: inline-flex;
+    width: 100vw;
+    height:33vh;
+    border: 2px solid red;
+    background-image:radial-gradient(blue,rgb(103, 241, 103)); 
+}
+.top-performers{
+    border:2px solid red;
+    display: inline-block;
+    width: 181px;
+    height: 108px;
+    text-align: center;
+    position: relative;
+    top:66px;
+    border-radius: 10px;
+    margin: 0px 91px;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    background-color: yellow;
+}
+
+.heading2{
+    color:white;
+    background-color: red;
+    text-align:center;
+    font-size: 25px;
+    margin:5px 0px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+.grid-container{
+  display:grid;
+  grid-template-columns: 5fr 5fr 5fr 1fr;
+  gap:10px;
+}
+.grid-item{
+ color:white;
+ font-weight: bold;
+
+}
+.item1{
+    background-color: chartreuse;
+    font-size: x-large;
+    text-align: center;
+   
+}
+.item2{
+    background-color: lightblue;
+    font-size: larger;
+  
+}
+.item3{
+    background-color: darkblue;
+    font-size: larger;
+   
+}
+
+.item4{
+    grid-row:span 2;
+    background-color: black;
+  
+    
+}
+.item4 ol{
+    padding: 15px;
+    text-decoration: underline;
+    position: relative;
+    top:-29px;
+}
+.item5{
+  grid-column: span 3;
+  background-color: orange;
+
+}
+.item6{
+    grid-column: span 4;
+    background-color: aqua;
+    color: black;
+    font-size: larger;
+    text-align: center;
+   
+}
